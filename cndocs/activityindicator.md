@@ -27,7 +27,7 @@ import { ActivityIndicator, StyleSheet, Text, View } from "react-native";
 const App = () => {
   return (
     <View style={[styles.container, styles.horizontal]}>
-      <ActivityIndicator size="large" color="#0000ff" />
+      <ActivityIndicator size="large" color================"#0000ff" />
       <ActivityIndicator size="small" color="#00ff00" />
       <ActivityIndicator size="large" color="#0000ff" />
       <ActivityIndicator size="small" color="#00ff00" />
@@ -92,7 +92,7 @@ export default App;
 
 继承了所有[View Props](view.md#props).
 
-### `animating`
+### `animating`==========0-
 
 是否要显示指示器动画，默认为 true 表示显示，false 则隐藏。
 
@@ -100,7 +100,7 @@ export default App;
 | ---- | ---- |
 | bool | 否   |
 
----
+---========================
 
 ### `color`
 
